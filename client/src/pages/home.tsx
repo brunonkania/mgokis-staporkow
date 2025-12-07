@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import EventsSection from "@/components/EventsSection";
-import ActivitiesSection from "@/components/ActivitiesSection";
+import NewsSection from "@/components/NewsSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <EventsSection />
-        <ActivitiesSection />
+        <NewsSection />
       </main>
       <Footer />
     </div>

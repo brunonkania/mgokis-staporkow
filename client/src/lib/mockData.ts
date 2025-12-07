@@ -45,6 +45,15 @@ export interface Activity {
   description: string;
 }
 
+export interface NewsItem {
+  id: number;
+  title: string;
+  date: string;
+  image: string;
+  excerpt: string;
+  category: string;
+}
+
 export const events: Event[] = [
   {
     id: 1,
@@ -107,6 +116,41 @@ export const activities: Activity[] = [
     schedule: "Soboty, 10:00-13:00",
     ageGroup: "Dorośli",
     description: "Tworzenie unikalnych dzieł z gliny pod okiem doświadczonego instruktora.",
+  },
+];
+
+export const news: NewsItem[] = [
+  {
+    id: 1,
+    title: "Nabór do Zespołu Folklorystycznego",
+    date: "2024-12-05",
+    image: danceImage,
+    excerpt: "Zapraszamy dzieci i młodzież do dołączenia do naszego zespołu folklorystycznego. Zapisy trwają do końca miesiąca.",
+    category: "Ogłoszenie",
+  },
+  {
+    id: 2,
+    title: "Sukces naszych artystów na konkursie",
+    date: "2024-12-01",
+    image: artWorkshopImage,
+    excerpt: "Uczniowie z pracowni plastycznej zdobyli pierwsze miejsce w wojewódzkim konkursie artystycznym.",
+    category: "Wydarzenie",
+  },
+  {
+    id: 3,
+    title: "Nowe instrumenty w szkole muzycznej",
+    date: "2024-11-28",
+    image: musicImage,
+    excerpt: "Dzięki wsparciu sponsorów zakupiliśmy nowe pianino oraz komplet skrzypiec dla najmłodszych uczniów.",
+    category: "Aktualność",
+  },
+  {
+    id: 4,
+    title: "Warsztaty ceramiczne dla seniorów",
+    date: "2024-11-25",
+    image: ceramicsImage,
+    excerpt: "Startuje nowy cykl warsztatów ceramicznych dedykowany seniorom. Zapisy w sekretariacie.",
+    category: "Ogłoszenie",
   },
 ];
 
