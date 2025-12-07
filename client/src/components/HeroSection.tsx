@@ -30,7 +30,7 @@ export default function HeroSection() {
 
       <motion.div
         style={{ opacity }}
-        className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white"
+        className="absolute top-20 left-0 right-0 bottom-0 z-10 flex flex-col items-center justify-center px-4 text-center text-white"
       >
         <motion.div
           initial={{ opacity: 0, y: 40 }}
