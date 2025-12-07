@@ -1,0 +1,45 @@
+Stwórz nowoczesną, artystyczną i responsywną stronę internetową dla "Miejsko-Gminnego Ośrodka Kultury w Stąporkowie".
+
+Tech Stack:
+- Framework: React (Vite)
+- Stylowanie: Tailwind CSS
+- Animacje: Framer Motion (kluczowe dla wizualizacji)
+- Ikony: Lucide React
+- Routing: React Router Dom
+
+DESIGN I WIZUALIZACJE (WAŻNE):
+Chcę, aby strona miała artystyczny, ale przejrzysty charakter. Zastosuj następujące efekty wizualne:
+1. Glassmorphism: Navbar powinien być półprzezroczysty z efektem rozmycia tła (backdrop-blur), zawieszony nad Hero Section (fixed top).
+2. Parallax: Sekcja Hero ze zdjęciem w tle powinna mieć delikatny efekt paralaksy podczas przewijania.
+3. Scroll Reveal: Wszystkie sekcje (aktualności, karty zajęć) powinny delikatnie "wjeżdżać" od dołu lub pojawiać się (fade-in) przy użyciu Framer Motion, gdy użytkownik przewija stronę.
+4. Hover Effects: Karty wydarzeń i przyciski muszą reagować na najechanie myszką (lekkie powiększenie, uniesienie cienia, zmiana koloru akcentu).
+
+STRUKTURA NAWIGACJI (Zgodnie z dostarczonym obrazkiem):
+Pasek nawigacji musi być podzielony na dwie grupy linków z LOGO pośrodku.
+Logo znajduje się w pliku "logo.png" (lub użyj placeholdera tekstowego jeśli plik nie jest dostępny).
+
+Układ menu:
+[Lewa strona]:
+- "Główna"
+- "O nas" (Dropdown)
+- "Biblioteka publiczna" (Dropdown)
+- "Artystyczna przestrzeń" (Dropdown)
+
+[ŚRODEK]: DUŻE LOGO OŚRODKA KULTURY
+
+[Prawa strona]:
+- "Inne formy działalności" (Dropdown)
+- "Aktualności" (Dropdown)
+- "Kadra"
+- "Kontakt" (Dropdown)
+
+SEKCJE STRONY GŁÓWNEJ:
+1. Hero Section: Pełnoekranowe zdjęcie w tle (klimat teatralny/kulturalny), na środku duży napis witający i przycisk "Repertuar".
+2. Sekcja "Nadchodzące Wydarzenia": Nowoczesny grid z kartami (zdjęcie, data, tytuł).
+3. Sekcja "Zajęcia": Prezentacja kół zainteresowań w formie atrakcyjnych kafelków.
+4. Footer: Stopka z danymi kontaktowymi, mapą i social media.
+
+DANE:
+Stwórz plik z przykładowymi danymi (mock data), aby łatwo edytować treść.
+
+Proszę o wygenerowanie kompletnego kodu.
