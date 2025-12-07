@@ -29,7 +29,7 @@ function NavDropdown({ item, isOpen, onToggle }: { item: NavItem; isOpen: boolea
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute top-full left-0 mt-1 min-w-48 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-lg rounded-md shadow-lg border border-white/20 dark:border-zinc-700/50 overflow-hidden z-50"
+            className="absolute top-full left-0 mt-1 min-w-48 bg-black/95 backdrop-blur-lg rounded-md shadow-lg border border-white/10 overflow-hidden z-50"
           >
             {item.dropdown.map((subItem) => (
               <Link key={subItem.href} href={subItem.href}>
@@ -89,7 +89,7 @@ export default function Navbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
-        className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-lg border-b border-white/20 dark:border-zinc-700/30 shadow-lg"
+        className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-lg border-b border-white/10 shadow-lg"
       >
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-20">
@@ -102,7 +102,7 @@ export default function Navbar() {
                 <img
                   src={images.logo}
                   alt="MGOK Stąporków"
-                  className="h-14 w-auto object-contain dark:invert"
+                  className="h-14 w-auto object-contain invert"
                 />
               </div>
             </Link>
@@ -130,7 +130,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="fixed top-20 left-0 right-0 z-40 bg-white/95 dark:bg-zinc-900/95 backdrop-blur-lg border-b border-white/20 dark:border-zinc-700/30 lg:hidden overflow-hidden"
+            className="fixed top-20 left-0 right-0 z-40 bg-black/95 backdrop-blur-lg border-b border-white/10 lg:hidden overflow-hidden"
           >
             <div className="max-w-7xl mx-auto px-4 py-4 space-y-2">
               {[...navLinks.left, ...navLinks.right].map((item) => (
